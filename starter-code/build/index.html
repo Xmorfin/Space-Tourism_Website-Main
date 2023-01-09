@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section
+      class="bg-[url('/assets/home/background-home-mobile.jpg')] w-screen h-screen bg-cover"
+    >
+      <!-- Header -->
+      <header>
+        <!-- Flex Container -->
+        <nav class="container mx-auto py-4">
+          <div class="navbar">
+            <!-- Logo Images -->
+            <div class="flex-1">
+              <a class="btn btn-ghost normal-case text-xl"
+                ><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                  <g fill="none" fill-rule="evenodd">
+                    <circle cx="24" cy="24" r="24" fill="#FFF" />
+                    <path
+                      fill="#0B0D17"
+                      d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+                    />
+                  </g>
+                </svg>
+              </a>
+            </div>
+            <!-- Dropdown -->
+            <div class="flex-none dropdown dropdown-end">
+              <button class="btn btn-square btn-ghost">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  class="inline-block w-5 h-5 stroke-current"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </button>
+              <ul
+                tabindex="0"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>Home</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Crew</a></li>
+                <li><a href="">Technology</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section>
+        <!-- Container -->
+        <div class="container my-8">
+          <!-- Hero -->
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <p class="my-4 uppercase">So, you want to travel to</p>
+              <h1 class="mb-5 text-5xl font-bold">SPACE</h1>
+              <p class="mb-5">
+                Let’s face it; if you want to go to space, you might as well
+                genuinely go to outer space and not hover kind of on the edge of
+                it. Well sit back, and relax because we’ll give you a truly out
+                of this world experience!
+              </p>
+              <button
+                class="btn btn-primary border rounded-full w-40 h-40 text-xl my-10"
+              >
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
+<!-- 00 Home 01 Destination 02 Crew 03 Technology So, you want to travel to Space
+    Let’s face it; if you want to go to space, you might as well genuinely go to
+    outer space and not hover kind of on the edge of it. Well sit back, and
+    relax because we’ll give you a truly out of this world experience! Explore -->
